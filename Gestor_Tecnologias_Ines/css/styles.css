@@ -1,0 +1,264 @@
+
+/*FONDO LOGIN*/
+.fondoLogin{
+    font-family: 'Inria Sans', sans-serif;
+    background-image: url('../img/fondo.png');
+    background-attachment: fixed;
+    background-size: cover; /* Asegurar que la imagen ocupe toda la pantalla (ancho y alto) */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+sdfsfsdf
+/*INPUTS CONTRASEÑA*/
+.inputLogin{
+    font-family: 'Inria Sans', sans-serif;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    font-size: 20px;
+    color:white;
+}
+
+/*INTERIOR FORMULARIO*/
+.formInterior{
+    position:relative;
+
+}
+
+
+/*BOTONES LOGIN*/
+.botonIngresar{
+    font-family: 'Inria Sans', sans-serif;
+    background-color: #0252BC;
+    border: none;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 16px;
+    border-radius: 12px;
+    font-size: 20px;
+    color:white;
+}
+.botonOlvideContra{
+    font-family: 'Inria Sans', sans-serif;
+    background-color: #A10003;
+    border: none;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 16px;
+    border-radius: 12px;
+    font-size: 20px;
+    color:white;
+}
+
+
+/*TITULO LOGIN*/
+.tituloLogin{
+    color:#FFFFFF;
+    padding-top: 20px; /* Puedes ajustar este padding para mover el título hacia abajo */
+    margin-bottom: 20px; /* Añade un margen inferior porque sino google se pone triste */
+    font-size:50px;
+
+}
+
+/*EXTERIOR FORMULARIO*/
+form{
+    position: absolute;
+    background-color: #170346;
+    width: 30%;
+    height: 61%;
+    top: 50%;                     /* Coloca el formulario a la mitad de la altura de la ventana */
+    left: 50%;                    /* Coloca el formulario a la mitad del ancho de la ventana */
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
+                                    /*PAGINA PRINCIPAL*/
+/*------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*FONDO PAGINA PRINCIPAL*/
+.fondoPrincipal{
+    font-family: 'Inria Sans', sans-serif;
+    background-color:#170346;
+}
+
+/*BARRA HEADER*/
+.headerPrincipal {
+    background-color: #4A17E8;
+    width: 100%;           
+    height: 100px;         /* Altura del header */
+    color: white;          
+    position: absolute;       
+    top: 0;                
+    left: 0;               
+}
+
+/*TITULO HEADER*/
+.tituloHeader{
+    font-size: 50px;
+    margin-top: 15px; /* Puedes ajustar este padding para mover el título hacia abajo */
+    text-align: center;
+}
+
+/*TITULO PRINCIPAL*/
+.tituloMain{
+    font-size: 50px;
+    margin-top: 100px; /* Puedes ajustar este padding para mover el título hacia abajo */
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+/* TARJETA CON INFO DE CADA PROYECTO */
+.tarjetaProyecto {
+    background-color: #3000A0;
+    border-radius: 10px;
+    width: 90%; /* O el valor que prefieras */
+    margin: 0 auto; /* Esto centra horizontalmente */
+}
+
+/*TITULO DE CADA PROYECTO*/
+.tituloTarjeta{
+    text-align:center;
+}
+
+
+/*solo genera un margen entre cada fila*/
+.row{
+    margin-bottom:30px;
+}
+
+
+/*FONDO DEL FOOTER*/
+.fondoFooter{
+    background-color: #4A17E8;
+    padding-bottom: 20px;
+}
+
+/*TEXTO DEL FOOTER*/
+.textoFooter{
+    text-align:center;
+    font-size: 30px;
+}
+
+
+
+/*ICONO DEL FOOTER BOOTSTRAP*/
+.logoBootstrapFooter {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+}
+.icono {
+    font-size: 3rem; /* Tamaño del icono */
+}
+
+
+
+
+.logoHeader{
+    position: absolute;
+    font-size: 3rem; /* Tamaño del icono */
+    top: 50%;            /* Coloca el borde superior del elemento al 50% de la altura */
+    left: 3%;           /* Coloca el borde izquierdo del elemento al 50% del ancho */
+    transform: translate(-50%, -50%);
+}
+
+
+
+/*------------------------------------------------------------------------------------------------*/
+                                    /*Inicio de Menu Desplegable*/
+/*------------------------------------------------------------------------------------------------*/
+
+
+/* Estilos para el menú lateral */
+.sidebar {
+    height: 100%;
+    width: 0; /* Inicialmente oculto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0A053B;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    display: block;
+    transition: 0.3s;
+}
+
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.botonMenu {
+    font-family: 'Inria Sans', sans-serif;
+    background-color: #0252BC;
+    border: none;
+    width: 90%;
+    min-width: 200px;
+    height: 40px;
+    margin-bottom: 16px;
+    border-radius: 12px;
+    font-size: 20px;
+    color: white;
+    
+    /* Centra el texto dentro del botón sin moverlo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.logoMenuAgregar{
+    font-size: 3rem; /* Tamaño del icono */
+    margin-left:20px;
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+                                    /*Fin de Menu Desplegable*/
+/*------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+.botonVolver{
+    position:absolute;
+    margin-top: 20px;
+    background-color:transparent;
+    border: 2px solid white;
+    color:white;
+    border-radius: 8px;
+    width: 10%;
+    height: 50px;
+    font-size: 30px;
+}
